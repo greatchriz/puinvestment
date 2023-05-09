@@ -176,7 +176,7 @@
 
                         <li>
 
-                            <a href="{"?a=about"|encurl}" class="sub-menu-item">
+                            <a href="{"?a=invest_page"|encurl}" class="sub-menu-item">
                                 About Us
                             </a>
                         </li>

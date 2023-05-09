@@ -1,12 +1,12 @@
-{extends file="tmpl/layout.tpl"}
+{extends file="layout.tpl"}
 
 
 {block name=section}
 
-    {include file="tmpl/sections/about/hero.tpl"}
+    {include file="sections/about/hero.tpl"}
     <!-- Start Section-->
     <section class="relative md:py-24 py-16">
-        {include file="tmpl/sections/about/testimonials"}
+        {include file="sections/about/testimonials.tpl"}
 
     </section>
 

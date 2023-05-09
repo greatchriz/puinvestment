@@ -1,11 +1,14 @@
-{include file="header.tpl"}
-
-{$settings.site_name} INVESTMENT PROGRAMS:<br><br>
+{extends file="layout.tpl"}
 
 
-{include file="index.plans.tpl"}
+{block name=section}
+
+    {include file="sections/about/hero.tpl"}
+    <!-- Start Section-->
+    <section class="relative md:py-24 py-16">
+        {include file="sections/about/testimonials"}
+
+    </section>
 
 
-
-
-{include file="footer.tpl"}
+{/block}

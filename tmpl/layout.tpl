@@ -112,7 +112,7 @@
                             alt=""
                         >
                         <img
-                            src="assets/images/logo-svg"
+                            src="assets/images/logo.svg"
                             class="l-light"
                             height="80px"
                             width="160px"
@@ -175,6 +175,7 @@
                         </li>
 
                         <li>
+
                             <a href="{"?a=about"|encurl}" class="sub-menu-item">
                                 About Us
                             </a>

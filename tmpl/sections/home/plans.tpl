@@ -1,6 +1,6 @@
 <div class="container">
     <div class="grid lg:grid-cols-12 grid-cols-1 items-center gap-[30px]">
-        <div class="lg:col-span-5 group border-b-[3px] dark:border-gray-700 relative shadow dark:shadow-gray-800 rounded-md md:scale-110 z-3 bg-white dark:bg-slate-900">
+        <div class="lg:col-span-5 group border-b-[3px] dark:border-gray-700 relative shadow dark:shadow-gray-800 rounded-md md:scale-110 z-3 bg-white dark:bg-slate-900 p-6">
             <div class="ltr:lg:text-left rtl:lg:text-right text-center">
                 <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Referral Program
 

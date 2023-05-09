@@ -5,7 +5,7 @@
                     <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Key Features
                     </h3>
 
-                    <p class="text-slate-400 max-w-xl mx-auto">Start investing in Puinvestment, a company that has everything you need  for your digital assets like cryptocurrency management, storing, investing and buying.</p>
+                    <p class="text-slate-400 max-w-xl mx-auto">Start investing in Puinvestment, a company that has everything you need  for your digital assets like cryptocurrency. We manage, store, invest and trade your crypto currency with the sole aim of generating profit for you..</p>
                 </div>
                 <!--end grid-->
 

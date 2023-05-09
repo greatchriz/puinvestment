@@ -1,103 +1,164 @@
 {include file="header.tpl"}
+{literal}
+<style>
+    .widget-stat .media {
+    padding: 0px 0;
+    align-items: center;
+  }
 
-{loaddata name="user_notices" var=notices}
+  .widget-stat .media>span {
+    height: 85px;
+    width: 85px;
+    border-radius: 50px;
+    padding: 10px 12px;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464a53;
+  }
 
-{if $notices}
-<ul style="color:red">
-{foreach from=$notices item=n}
-<li><b>{$n.title}</b> {$n.text|nl2br}
-<form method=post>
-<input type=hidden name=a value=user_notices>
-<input type=hidden name=action value=notified>
-<input type=hidden name=id value={$n.id}>
-<input type=submit value="Dismiss">
-</form>
-{/foreach}
-</ul>
-{/if}
+  @media only screen and (max-width: 1400px) {
+    .widget-stat .media>span {
+      height: 70px;
+      width: 70px;
+      min-width: 70px;
+    }
+  }
 
-<h3>Your account:</h3><br>
+  .widget-stat .media .media-body p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+  }
 
-{if $settings.use_transaction_code ==1 && $userinfo.transaction_code == ''} <b>Note: currently you have not specified 
-a Transaction code. The Transaction code strengthens your funds security in our 
-system. The code is required to withdraw funds from your account{if $settings.internal_transfer_enabled} 
-and for internal transfer to another user account{/if}. Just do not change 'Transaction 
-code' in your account information if you do not want to use this feature. <a href=?a=edit_account>Click 
-here</a> to specify a new transaction code .</b> <br>
-<br>
-{/if}
+  @media only screen and (max-width: 1400px) {
+    .widget-stat .media .media-body p {
+      font-size: 14px;
+    }
+  }
 
-{if $userinfo.tfa_not_enabled} 
-<b>Security Note: please, activate <a href="{"?a=security"|encurl}">Two Factor Authentication</a> to keep your account safe.</b>
-{/if}
+  [data-theme-version="dark"] .widget-stat .media .media-body p {
+    color: #c4c9d5;
+  }
 
-<table cellspacing=0 cellpadding=2 border=0>
-<tr>
- <td>User:</td>
- <td>{$userinfo.username}</td>
-</tr><tr>
- <td>Registration Date:</td>
- <td>{$userinfo.create_account_date}</td>
-</tr><tr>
- <td>Last Access:</td>
- <td>{$last_access|default:"n/a"}&nbsp;</td>
-</tr><tr>
- <td>&nbsp;</td>
-</tr><tr>
- <td valign=top>Account Balance:</td>
- <td>{$currency_sign}<b>{$ab_formated.total}</b><br>
- <small>
-{foreach from=$ps item=p}
-   {if $p.balance > 0}{$currency_sign}{$p.balance} of {$p.name}<br>{/if}
-{/foreach}
-</tr><tr>
- <td>Earned Total:</td>
- <td>{$currency_sign}<b>{$ab_formated.earning}</b></td>
-</tr><tr>
- <td>Pending Withdrawal:</td>
- <td>{$currency_sign}<b>{$ab_formated.withdraw_pending}</b></td>
-</tr><tr>
- <td>Withdrew Total:</td>
- <td>{$currency_sign}<b>{$ab_formated.withdrawal}</b></td>
-</tr><tr>
- <td>Active Deposit:</td>
- <td>{$currency_sign}<b>{$ab_formated.active_deposit}</b></td>
-</tr><tr>
- <td>&nbsp;</td>
-</tr>
-{if $last_deposit}
-<tr>
- <td>Last Deposit:</td>
- <td>{$currency_sign}<b>{$last_deposit|default:"n/a"}</b> &nbsp; <small>{$last_deposit_date|default:"n/a"}</small></td>
-</tr>
-{/if}
-{if $ab_formated.deposit != 0}
-<tr>
- <td>Total Deposit:</td>
- <td>{$currency_sign}<b>{$ab_formated.deposit}</b></td>
-</tr>
-{/if}
-{if $last_withdrawal}
-<tr>
- <td>Last Withdrawal:</td>
- <td>{$currency_sign}<b>{$last_withdrawal|default:"n/a"}</b> &nbsp; <small>{$last_withdrawal_date|default:"n/a"}</small></td>
-</tr>
-{/if}
-{if $ab_formated.withdrawal > 0}
-<tr>
-    <td>Withdrew Total:</td>
- <td>{$currency_sign}<b>{$ab_formated.withdrawal}</b></td>
-</tr>
-{/if}
-<tr>
- <td>&nbsp;</td>
-</tr></table>
+  .widget-stat .media .media-body small,
+  .widget-stat .media .media-body .small,
+  .widget-stat .media .media-body .small {
+    font-size: 75%;
+  }
 
-{section name=p loop=$ps}
-  {if $ps[p].pending_col > 0}{$ps[p].pending_col} {$ps[p].name} deposit{if $ps[p].pending_col > 1}s{/if} of {$currency_sign}{$ps[p].pending_amount} total pending<br>{/if}
-{/section}
+  .widget-stat .media .media-body h3,
+  .widget-stat .media .media-body .h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.2;
+  }
 
-<br><br>
+  .widget-stat .media .media-body h4,
+  .widget-stat .media .media-body .h4 {
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+  }
 
+  .widget-stat .media .media-body span {
+    margin-left: 5px;
+  }
 
+  .widget-stat[class*="bg-"] .media>span {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: #fff;
+  }
+
+  .widget-stat[class*="bg-"] .progress {
+    background-color: rgba(255, 255, 255, 0.25) !important;
+  }
+
+  [direction="rtl"] .widget-stat .media .media-body span {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+</style>
+{/literal}
+
+<div class="col-xl-3 col-xxl-6 col-lg-6 col-sm-6">
+                        <div class="widget-stat card">
+                            <div class="card-body p-4">
+                                <div class="media ai-icon">
+                                    <span class="me-3 bgl-primary text-primary">
+                                        <!-- <i class="ti-user"></i> -->
+                                        <svg id="icon-customers" xmlns="http://www.w3.org/2000/svg" width="30"
+                                            height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-user">
+                                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                    </span>
+                                    <div class="media-body">
+                                        <p class="mb-1">User:</p>
+                                        <h4 class="mb-0">{$userinfo.username}</h4>
+                                        <!--<span class="badge badge-primary">+3.5%</span>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<div class="col-xl-3 col-xxl-6 col-lg-6 col-sm-6">
+                        <div class="widget-stat card">
+                            <div class="card-body p-4">
+                                <div class="media ai-icon">
+                                    
+                                    <span class="me-3 bgl-primary text-primary">
+                                        <!-- <i class="ti-user"></i> -->
+                                        <i class="fi fi-rr-wallet"></i>
+                                        
+                                    </span>
+                                    <div class="media-body">
+                                        <p class="mb-1">Account Balance:</p>
+      
+                                        <h4 class="mb-0">{$currency_sign}{$ab_formated.total}</h4>
+                                        <!--<span class="badge badge-primary">+3.5%</span>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<div class="col-xl-3 col-xxl-6 col-lg-6 col-sm-6">
+                        <div class="widget-stat card">
+                            <div class="card-body p-4">
+                                <div class="media ai-icon">
+                                    <span class="me-3 bgl-primary text-primary">
+                                        <!-- <i class="ti-user"></i> -->
+                                      <i class="fi fi-rr-sack dollar"></i>
+                                    </span>
+                                    <div class="media-body">
+                                        <p class="mb-1">Earned Total:</p>
+                                        <h4 class="mb-0">{$currency_sign}{$ab_formated.earning}</h4>
+                                        <!--<span class="badge badge-primary">+3.5%</span>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<div class="col-xl-3 col-xxl-6 col-lg-6 col-sm-6">
+                        <div class="widget-stat card">
+                            <div class="card-body p-4">
+                                <div class="media ai-icon">
+                                    <span class="me-3 bgl-primary text-primary">
+                                        <!-- <i class="ti-user"></i> -->
+                                        <i class="fi fi-rr-credit-card"></i>
+                                    </span>
+                                    <div class="media-body">
+                                        <p class="mb-1">Withdrew Total:</p>
+                                        <h4 class="mb-0">{$currency_sign}{$ab_formated.withdrawal}</h4>
+                                        <!--<span class="badge badge-primary">+3.5%</span>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 {include file="footer.tpl"}

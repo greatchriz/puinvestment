@@ -238,7 +238,9 @@
                                         class="text-[22px] focus:outline-none"
                                     >
                                         <img
-                                            src="assets/images/logo-light.png"
+                                            src="assets/images/logo.svg"
+                                            height="80px"
+                                            width="160px"
                                             alt=""
                                         >
                                     </a>

@@ -5,18 +5,35 @@
 Your upline is <a href=mailto:{$upline.email}>{$upline.name}</a><br><br>
 {/if}
 <br>
-<table width=300 cellspacing=1 cellpadding=1>
-<tr>
-  <td class=item>Referrals:</td>
-  <td class=item>{$total_ref}</td>
-</tr><tr>
-  <td class=item>Active referrals:</td>
-  <td class=item>{$active_ref}</td>
-</tr><tr>
-  <td class=item>Total referral commission:</td>
-  <td class=item>{$currency_sign}{$commissions}</td>
-</tr>
-</table>
+<div class="col-xl-4 col-lg-12 col-sm-12 ">
+    <div class="card">
+        <div class="card-body pb-0">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex px-0 justify-content-between">
+                    <strong>Referrals:</strong>
+                    <span class="mb-0">{$total_ref}</span>
+                </li>
+                
+                <li class="list-group-item d-flex px-0 justify-content-between">
+                    <strong>Active Referrals:</strong>
+                    <span class="mb-0">{$active_ref}</span>
+                </li>
+                
+                <li class="list-group-item d-flex px-0 justify-content-between">
+                    <strong>Total Referral Commission:</strong>
+                    <span class="mb-0">{$currency_sign}{$commissions}</span>
+                </li>
+                
+                <li class="list-group-item d-flex px-0 justify-content-between">
+                    <strong>Referral Link:</strong>
+                    <span class="mb-0"><a href="{$settings.site_url}/{"?ref=`$userinfo.username`"|encurl}">
+                        <b>{$settings.site_url}/{"?ref=`$userinfo.username`"|encurl}</b>
+                        </a>
+                    </span>
+                </li>
+            </ul>
+    </div>
+</div>
 <br>
 {if $settings.show_refstat}
 

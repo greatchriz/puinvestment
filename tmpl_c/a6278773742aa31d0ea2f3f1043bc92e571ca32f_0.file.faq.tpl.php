@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-05-08 20:03:01
+<?php /* Smarty version 3.1.27, created on 2023-05-09 00:42:15
          compiled from "/home/reconsxo/puinvestment.org/tmpl/faq.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:139889470064598db54bbb86_82218346%%*/
+/*%%SmartyHeaderCode:8953556956459cf27cf9217_53596694%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,11 +9,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a6278773742aa31d0ea2f3f1043bc92e571ca32f' => 
     array (
       0 => '/home/reconsxo/puinvestment.org/tmpl/faq.tpl',
-      1 => 1580258160,
+      1 => 1683594613,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '139889470064598db54bbb86_82218346',
+  'nocache_hash' => '8953556956459cf27cf9217_53596694',
   'variables' => 
   array (
     'site_name' => 0,
@@ -21,14 +21,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64598db54e3033_01708872',
+  'unifunc' => 'content_6459cf27d3b333_61219024',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64598db54e3033_01708872')) {
-function content_64598db54e3033_01708872 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_6459cf27d3b333_61219024')) {
+function content_6459cf27d3b333_61219024 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_myescape')) require_once '/home/reconsxo/puinvestment.org/inc/libs/smarty3/plugins/modifier.myescape.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '139889470064598db54bbb86_82218346';
+$_smarty_tpl->properties['nocache_hash'] = '8953556956459cf27cf9217_53596694';
 echo $_smarty_tpl->getSubTemplate ("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
 ?>
 

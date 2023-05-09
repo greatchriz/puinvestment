@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-05-08 20:03:01
+<?php /* Smarty version 3.1.27, created on 2023-05-09 02:28:59
          compiled from "/home/reconsxo/puinvestment.org/tmpl/index_last_add_funds.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:91562847864598db55addb0_62046671%%*/
+/*%%SmartyHeaderCode:2648775396459e82b7957d5_28319097%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,11 +9,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'aa520b1ab6c2da33b40c54ee998442e1dc50cd63' => 
     array (
       0 => '/home/reconsxo/puinvestment.org/tmpl/index_last_add_funds.tpl',
-      1 => 1580258160,
+      1 => 1683594613,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '91562847864598db55addb0_62046671',
+  'nocache_hash' => '2648775396459e82b7957d5_28319097',
   'variables' => 
   array (
     'settings' => 0,
@@ -23,14 +23,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64598db55bb520_74576333',
+  'unifunc' => 'content_6459e82b7b1839_31280015',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64598db55bb520_74576333')) {
-function content_64598db55bb520_74576333 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_6459e82b7b1839_31280015')) {
+function content_6459e82b7b1839_31280015 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_myescape')) require_once '/home/reconsxo/puinvestment.org/inc/libs/smarty3/plugins/modifier.myescape.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '91562847864598db55addb0_62046671';
+$_smarty_tpl->properties['nocache_hash'] = '2648775396459e82b7957d5_28319097';
 if ($_smarty_tpl->tpl_vars['settings']->value['index_last_add_funds']) {?>
 <?php echo loaddata_smarty(array('name'=>"transactions",'limit'=>$_smarty_tpl->tpl_vars['settings']->value['index_last_add_funds'],'type'=>"add_funds",'var'=>"last_add_funds"),$_smarty_tpl);?>
 

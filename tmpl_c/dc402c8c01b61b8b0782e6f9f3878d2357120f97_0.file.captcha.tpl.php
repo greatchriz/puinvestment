@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-05-08 20:03:01
+<?php /* Smarty version 3.1.27, created on 2023-05-09 02:28:59
          compiled from "/home/reconsxo/puinvestment.org/tmpl/captcha.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:36359131864598db554ace9_60534925%%*/
+/*%%SmartyHeaderCode:6783728796459e82b7089d2_51735056%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,11 +9,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'dc402c8c01b61b8b0782e6f9f3878d2357120f97' => 
     array (
       0 => '/home/reconsxo/puinvestment.org/tmpl/captcha.tpl',
-      1 => 1580258160,
+      1 => 1683594613,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '36359131864598db554ace9_60534925',
+  'nocache_hash' => '6783728796459e82b7089d2_51735056',
   'variables' => 
   array (
     'action' => 0,
@@ -23,14 +23,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64598db555c856_94355108',
+  'unifunc' => 'content_6459e82b7201d8_44230733',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64598db555c856_94355108')) {
-function content_64598db555c856_94355108 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_6459e82b7201d8_44230733')) {
+function content_6459e82b7201d8_44230733 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_myescape')) require_once '/home/reconsxo/puinvestment.org/inc/libs/smarty3/plugins/modifier.myescape.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '36359131864598db554ace9_60534925';
+$_smarty_tpl->properties['nocache_hash'] = '6783728796459e82b7089d2_51735056';
 if ($_smarty_tpl->tpl_vars['ti']->value['check'][$_smarty_tpl->tpl_vars['action']->value]) {?>
 
 <?php if ($_smarty_tpl->tpl_vars['ti']->value['type'] == 'image') {?>

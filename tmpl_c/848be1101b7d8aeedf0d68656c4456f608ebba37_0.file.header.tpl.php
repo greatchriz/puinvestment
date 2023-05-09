@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-05-08 20:03:01
+<?php /* Smarty version 3.1.27, created on 2023-05-09 02:28:59
          compiled from "/home/reconsxo/puinvestment.org/tmpl/header.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:43570511864598db54e90c3_12428452%%*/
+/*%%SmartyHeaderCode:16988627476459e82b679d23_16673673%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,24 +9,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '848be1101b7d8aeedf0d68656c4456f608ebba37' => 
     array (
       0 => '/home/reconsxo/puinvestment.org/tmpl/header.tpl',
-      1 => 1580258160,
+      1 => 1683594613,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '43570511864598db54e90c3_12428452',
+  'nocache_hash' => '16988627476459e82b679d23_16673673',
   'variables' => 
   array (
     'settings' => 0,
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64598db54f4714_34700420',
+  'unifunc' => 'content_6459e82b68c871_61398112',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64598db54f4714_34700420')) {
-function content_64598db54f4714_34700420 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_6459e82b68c871_61398112')) {
+function content_6459e82b68c871_61398112 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '43570511864598db54e90c3_12428452';
+$_smarty_tpl->properties['nocache_hash'] = '16988627476459e82b679d23_16673673';
 echo $_smarty_tpl->getSubTemplate ("logo.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
 ?>
 

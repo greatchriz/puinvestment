@@ -34,9 +34,9 @@
 
                             <ul class="list-none text-slate-400">
                                 <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>
-                                    Minimum: <span class="ml-2">$50 </span> </li>
+                                    Minimum: <span class="ml-2">   $50 </span> </li>
                                 <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>
-                                    MAXIMUM : <span class="ml-2">$3999 </span> </li>
+                                    MAXIMUM: <span class="ml-2">    $3999 </span> </li>
                                 <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>
                                 24/7 LIVE CUSTOMER SUPPORT
                                 </li>

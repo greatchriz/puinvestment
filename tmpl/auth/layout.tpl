@@ -87,7 +87,7 @@
                     <div class="flex justify-center">
                         <div
                             class="max-w-[400px] w-full m-auto p-6 bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-800 rounded-md">
-                            <a href="index.html"><img
+                            <a href="?a=home"><img
                                     src="assets/images/logo.svg"
                                     height="100px"
                                     width="250px"

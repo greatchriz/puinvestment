@@ -33,7 +33,7 @@
                 id="LoginEmail"
                 type="text"
                 class="form-input mt-3"
-                placeholder="name@example.com"
+                placeholder="Johndoe11"
             >
         </div>
 

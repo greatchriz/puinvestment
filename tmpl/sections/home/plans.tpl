@@ -24,23 +24,25 @@
                     <div
                         class="group border-b-[3px] dark:border-gray-700 relative shadow dark:shadow-gray-800 rounded-md md:scale-110 z-3 bg-white dark:bg-slate-900">
                         <div class="p-6 py-8">
-                            <h6 class="font-bold uppercase mb-5 text-indigo-600">Starter</h6>
+                            <h6 class="font-bold uppercase mb-5 text-indigo-600">RUBY PLAN</h6>
 
                             <div class="flex mb-5">
                                 <span class="text-xl font-semibold">$</span>
-                                <span class="price text-4xl font-semibold mb-0">39</span>
-                                <span class="text-xl font-semibold self-end mb-1">/mo</span>
+                                <span class="price text-4xl font-semibold mb-0">2.1</span>
+                                <span class="text-xl font-semibold self-end mb-1">/daily</span>
                             </div>
 
                             <ul class="list-none text-slate-400">
                                 <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>
-                                    Full Access</li>
+                                    Minimum: <span class="ml-2">$50 </span> </li>
                                 <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>
-                                    Source Files</li>
+                                    MAXIMUM : <span class="ml-2">$3999 </span> </li>
                                 <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>
-                                    Free Appointments</li>
+                                24/7 LIVE CUSTOMER SUPPORT
+                                </li>
                                 <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i>
-                                    Enhanced Security</li>
+                                10% REFERRAL COMMISSION
+                            </li>
                             </ul>
                             <a
                                 href="#"

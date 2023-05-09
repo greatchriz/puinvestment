@@ -15,9 +15,9 @@
                                       <a
                                           href="page-services.html"
                                           class="title h5 text-lg font-medium hover:text-indigo-600"
-                                      >Best Financial Advice</a>
-                                      <p class="text-slate-400 mt-3">The most well-known which is said to have
-                                          originated</p>
+                                      >Multiple cryptocurrency exchanges</a>
+                                      <p class="text-slate-400 mt-3">We offer access to multiple cryptocurrency exchanges to provide users with a wide range of trading options and liquidity.
+                                      </p>
 
                                       <div class="mt-5">
                                           <a
@@ -39,11 +39,12 @@
 
                                   <div class="content mt-7">
                                       <a
-                                          href="page-services.html"
+                                          href="#"
                                           class="title h5 text-lg font-medium hover:text-indigo-600"
-                                      >Authorised Finance Brand</a>
-                                      <p class="text-slate-400 mt-3">The most well-known which is said to have
-                                          originated</p>
+                                      >Advanced charting and technical analysis tools</a>
+                                      <p class="text-slate-400 mt-3">Puinvestsment could provide advanced charting tools with technical analysis indicators to help traders make informed investment decisions.
+
+                                      </p>
 
                                       <div class="mt-5">
                                           <a
@@ -67,9 +68,10 @@
                                       <a
                                           href="page-services.html"
                                           class="title h5 text-lg font-medium hover:text-indigo-600"
-                                      >Compehensive Advices</a>
-                                      <p class="text-slate-400 mt-3">The most well-known which is said to have
-                                          originated</p>
+                                      >Secure wallet integration</a>
+                                      <p class="text-slate-400 mt-3">Puinvestsment could integrate secure wallets to allow users to store their cryptocurrencies safely and securely.
+
+                                      </p>
 
                                       <div class="mt-5">
                                           <a
@@ -93,9 +95,10 @@
                                       <a
                                           href="page-services.html"
                                           class="title h5 text-lg font-medium hover:text-indigo-600"
-                                      >Best Tax Advantages</a>
-                                      <p class="text-slate-400 mt-3">The most well-known which is said to have
-                                          originated</p>
+                                      >Margin trading</a>
+                                      <p class="text-slate-400 mt-3">Margin trading could be offered to allow traders to borrow funds to increase their buying power and potentially increase their profits.
+
+                                      </p>
 
                                       <div class="mt-5">
                                           <a
@@ -107,6 +110,126 @@
                                   </div>
                               </div>
                               <!--end feature content-->
+
+
+
+                            
+
+                              <div
+                                  class="group p-6 md:px-4 rounded-lg shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 bg-white dark:bg-slate-900 text-center transition-all duration-500 ease-in-out">
+                                  <div
+                                      class="w-16 h-16 bg-indigo-600/5 text-indigo-600 rounded-lg text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
+                                      <i class="uil uil-presentation-line"></i>
+                                  </div>
+
+                                  <div class="content mt-7">
+                                      <a
+                                          href="page-services.html"
+                                          class="title h5 text-lg font-medium hover:text-indigo-600"
+                                      >Multiple Social trading</a>
+                                      <p class="text-slate-400 mt-3">Puinvestsment offer a social trading feature that allows users to follow and copy the trades of successful traders.
+
+
+                                      </p>
+
+                                      <div class="mt-5">
+                                          <a
+                                              href="#"
+                                              class="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
+                                          >Read
+                                              More <i class="uil uil-arrow-right"></i></a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <!--end feature content-->
+
+                              <div
+                                  class="group p-6 md:px-4 rounded-lg shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 bg-white dark:bg-slate-900 text-center transition-all duration-500 ease-in-out">
+                                  <div
+                                      class="w-16 h-16 bg-indigo-600/5 text-indigo-600 rounded-lg text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
+                                      <i class="uil uil-bill"></i>
+                                  </div>
+
+                                  <div class="content mt-7">
+                                      <a
+                                          href="#"
+                                          class="title h5 text-lg font-medium hover:text-indigo-600"
+                                      >Automated trading</a>
+                                      <p class="text-slate-400 mt-3">Puinvestsment could provide users with the ability to automate their trading strategies with the use of bots and algorithms.
+
+
+
+                                      </p>
+
+                                      <div class="mt-5">
+                                          <a
+                                              href="#"
+                                              class="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
+                                          >Read
+                                              More <i class="uil uil-arrow-right"></i></a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <!--end feature content-->
+
+                              <div
+                                  class="group p-6 md:px-4 rounded-lg shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 bg-white dark:bg-slate-900 text-center transition-all duration-500 ease-in-out">
+                                  <div
+                                      class="w-16 h-16 bg-indigo-600/5 text-indigo-600 rounded-lg text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
+                                      <i class="uil uil-money-withdrawal"></i>
+                                  </div>
+
+                                  <div class="content mt-7">
+                                      <a
+                                          href="page-services.html"
+                                          class="title h5 text-lg font-medium hover:text-indigo-600"
+                                      >News and Market Analysis</a>
+                                      <p class="text-slate-400 mt-3"> Staying up-to-date on the latest news and trends in the crypto market is important for making informed investment decisions. Puinvestsment provide users with access to market analysis, news updates, and expert insights.
+
+
+                                      </p>
+
+                                      <div class="mt-5">
+                                          <a
+                                              href="#"
+                                              class="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
+                                          >Read
+                                              More <i class="uil uil-arrow-right"></i></a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <!--end feature content-->
+
+                              <div
+                                  class="group p-6 md:px-4 rounded-lg shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 bg-white dark:bg-slate-900 text-center transition-all duration-500 ease-in-out">
+                                  <div
+                                      class="w-16 h-16 bg-indigo-600/5 text-indigo-600 rounded-lg text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
+                                      <i class="uil uil-presentation-line"></i>
+                                  </div>
+
+                                  <div class="content mt-7">
+                                      <a
+                                          href="page-services.html"
+                                          class="title h5 text-lg font-medium hover:text-indigo-600"
+                                      >Customer Support</a>
+                                      <p class="text-slate-400 mt-3">  Puinvestsment have a responsive customer support team that can help users with any issues or questions they may have.
+
+
+
+                                      </p>
+
+                                      <div class="mt-5">
+                                          <a
+                                              href="#"
+                                              class="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
+                                          >Read
+                                              More <i class="uil uil-arrow-right"></i></a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <!--end feature content-->
+
+
                           </div>
                       </div>
                   </div>

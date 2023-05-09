@@ -16,16 +16,14 @@
                                     <div class="text-center">
                                         <h1
                                             class="font-semibold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5">
-                                            Discover the world of <br> business</h1>
-                                        <p class="text-white/70 text-lg max-w-xl mx-auto">Launch your campaign and
-                                            benefit from our expertise on designing and managing conversion centered
-                                            Tailwind CSS v3.x html page.</p>
+                                            Invest in Crypto with  <br> Confidence</h1>
+                                        <p class="text-white/70 text-lg max-w-xl mx-auto">Whether you're a seasoned investor or just getting started, we're here to help you achieve your financial goals. Sign up today and start investing with confidence!</p>
 
                                         <div class="mt-6">
                                             <a
-                                                href="#"
+                                                href="/?a=account"
                                                 class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md"
-                                            >Contact us</a>
+                                            >Get Started</a>
                                         </div>
                                     </div>
                                 </div>
@@ -46,10 +44,8 @@
                                     <div class="text-center">
                                         <h1
                                             class="font-semibold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5">
-                                            Meet our brand <br> new solution</h1>
-                                        <p class="text-white/70 text-lg max-w-xl mx-auto">Launch your campaign and
-                                            benefit from our expertise on designing and managing conversion centered
-                                            Tailwind CSS v3.x html page.</p>
+                                            Crypto experts Traders <br>trading for you.</h1>
+                                        <p class="text-white/70 text-lg max-w-xl mx-auto">Our team of experienced financial experts has developed a range of investment solutions tailored to meet the needs of both seasoned investors and newcomers to the crypto world.</p>
 
                                         <div class="mt-6">
                                             <a

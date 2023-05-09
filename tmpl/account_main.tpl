@@ -1,164 +1,119 @@
-{include file="header.tpl"}
-{literal}
-<style>
-    .widget-stat .media {
-    padding: 0px 0;
-    align-items: center;
-  }
-
-  .widget-stat .media>span {
-    height: 85px;
-    width: 85px;
-    border-radius: 50px;
-    padding: 10px 12px;
-    font-size: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #464a53;
-  }
-
-  @media only screen and (max-width: 1400px) {
-    .widget-stat .media>span {
-      height: 70px;
-      width: 70px;
-      min-width: 70px;
-    }
-  }
-
-  .widget-stat .media .media-body p {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-  }
-
-  @media only screen and (max-width: 1400px) {
-    .widget-stat .media .media-body p {
-      font-size: 14px;
-    }
-  }
-
-  [data-theme-version="dark"] .widget-stat .media .media-body p {
-    color: #c4c9d5;
-  }
-
-  .widget-stat .media .media-body small,
-  .widget-stat .media .media-body .small,
-  .widget-stat .media .media-body .small {
-    font-size: 75%;
-  }
-
-  .widget-stat .media .media-body h3,
-  .widget-stat .media .media-body .h3 {
-    font-size: 30px;
-    font-weight: 600;
-    margin: 0;
-    line-height: 1.2;
-  }
-
-  .widget-stat .media .media-body h4,
-  .widget-stat .media .media-body .h4 {
-    font-size: 24px;
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  .widget-stat .media .media-body span {
-    margin-left: 5px;
-  }
-
-  .widget-stat[class*="bg-"] .media>span {
-    background-color: rgba(255, 255, 255, 0.25);
-    color: #fff;
-  }
-
-  .widget-stat[class*="bg-"] .progress {
-    background-color: rgba(255, 255, 255, 0.25) !important;
-  }
-
-  [direction="rtl"] .widget-stat .media .media-body span {
-    margin-left: 0;
-    margin-right: 10px;
-  }
-
-</style>
-{/literal}
-
-<div class="col-xl-3 col-xxl-6 col-lg-6 col-sm-6">
-                        <div class="widget-stat card">
-                            <div class="card-body p-4">
-                                <div class="media ai-icon">
-                                    <span class="me-3 bgl-primary text-primary">
-                                        <!-- <i class="ti-user"></i> -->
-                                        <svg id="icon-customers" xmlns="http://www.w3.org/2000/svg" width="30"
-                                            height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                            class="feather feather-user">
-                                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                                            <circle cx="12" cy="7" r="4"></circle>
-                                        </svg>
-                                    </span>
-                                    <div class="media-body">
-                                        <p class="mb-1">User:</p>
-                                        <h4 class="mb-0">{$userinfo.username}</h4>
-                                        <!--<span class="badge badge-primary">+3.5%</span>-->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-<div class="col-xl-3 col-xxl-6 col-lg-6 col-sm-6">
-                        <div class="widget-stat card">
-                            <div class="card-body p-4">
-                                <div class="media ai-icon">
-                                    
-                                    <span class="me-3 bgl-primary text-primary">
-                                        <!-- <i class="ti-user"></i> -->
-                                        <i class="fi fi-rr-wallet"></i>
-                                        
-                                    </span>
-                                    <div class="media-body">
-                                        <p class="mb-1">Account Balance:</p>
+<!DOCTYPE html>
+  <html lang="en" class="light scroll-smooth" dir="ltr">
       
-                                        <h4 class="mb-0">{$currency_sign}{$ab_formated.total}</h4>
-                                        <!--<span class="badge badge-primary">+3.5%</span>-->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-<div class="col-xl-3 col-xxl-6 col-lg-6 col-sm-6">
-                        <div class="widget-stat card">
-                            <div class="card-body p-4">
-                                <div class="media ai-icon">
-                                    <span class="me-3 bgl-primary text-primary">
-                                        <!-- <i class="ti-user"></i> -->
-                                      <i class="fi fi-rr-sack dollar"></i>
-                                    </span>
-                                    <div class="media-body">
-                                        <p class="mb-1">Earned Total:</p>
-                                        <h4 class="mb-0">{$currency_sign}{$ab_formated.earning}</h4>
-                                        <!--<span class="badge badge-primary">+3.5%</span>-->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-<div class="col-xl-3 col-xxl-6 col-lg-6 col-sm-6">
-                        <div class="widget-stat card">
-                            <div class="card-body p-4">
-                                <div class="media ai-icon">
-                                    <span class="me-3 bgl-primary text-primary">
-                                        <!-- <i class="ti-user"></i> -->
-                                        <i class="fi fi-rr-credit-card"></i>
-                                    </span>
-                                    <div class="media-body">
-                                        <p class="mb-1">Withdrew Total:</p>
-                                        <h4 class="mb-0">{$currency_sign}{$ab_formated.withdrawal}</h4>
-                                        <!--<span class="badge badge-primary">+3.5%</span>-->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-{include file="footer.tpl"}
+  <!-- Mirrored from shreethemes.in/techwind/layouts/auth-signup.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 May 2023 16:51:59 GMT -->
+  <head>
+          <meta charset="UTF-8" />
+          <title>Techwind - Tailwind CSS Multipurpose Landing Page Template</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+          <meta name="description" content="Tailwind CSS Saas & Software Landing Page Template" />
+          <meta name="keywords" content="agency, application, business, clean, creative, cryptocurrency, it solutions, modern, multipurpose, nft marketplace, portfolio, saas, software, tailwind css" />
+          <meta name="author" content="Shreethemes" />
+          <meta name="website" content="https://shreethemes.in/" />
+          <meta name="email" content="support@shreethemes.in" />
+          <meta name="version" content="1.8.0" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+          <!-- favicon -->
+          <link rel="shortcut icon" href="assets/images/favicon.ico" />
+  
+          <!-- Css -->
+          <!-- Main Css -->
+          <link href="assets/libs/%40iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
+          <link rel="stylesheet" href="assets/css/icons.css" />
+          <link rel="stylesheet" href="assets/css/tailwind.css" />
+  
+      </head>
+      
+      <body class="font-nunito text-base text-black dark:text-white dark:bg-slate-900">
+          <!-- Loader Start -->
+          <!-- <div id="preloader">
+              <div id="status">
+                  <div class="spinner">
+                      <div class="double-bounce1"></div>
+                      <div class="double-bounce2"></div>
+                  </div>
+              </div>
+          </div> -->
+          <!-- Loader End -->
+  
+          <section class="md:h-screen py-36 flex items-center bg-[url('../../assets/images/cta.html')] bg-no-repeat bg-center bg-cover">
+              <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
+              <div class="container">
+                  <div class="flex justify-center">
+                      <div class="max-w-[400px] w-full m-auto p-6 bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-800 rounded-md">
+                          <a href="index.html"><img src="assets/images/logo-icon-64.png" class="mx-auto" alt=""></a>
+                          <h5 class="my-6 text-xl font-semibold">Signup</h5>
+                          <form action="https://shreethemes.in/techwind/layouts/auth-signup-success.html" class="ltr:text-left rtl:text-right">
+                              <div class="grid grid-cols-1">
+                                  <div class="mb-4">
+                                      <label class="font-semibold" for="RegisterName">Your Name:</label>
+                                      <input id="RegisterName" type="text" class="form-input mt-3" placeholder="Harry">
+                                  </div>
+  
+                                  <div class="mb-4">
+                                      <label class="font-semibold" for="LoginEmail">Email Address:</label>
+                                      <input id="LoginEmail" type="email" class="form-input mt-3" placeholder="name@example.com">
+                                  </div>
+  
+                                  <div class="mb-4">
+                                      <label class="font-semibold" for="LoginPassword">Password:</label>
+                                      <input id="LoginPassword" type="password" class="form-input mt-3" placeholder="Password:">
+                                  </div>
+  
+                                  <div class="mb-4">
+                                      <div class="flex items-center w-full mb-0">
+                                          <input class="form-checkbox text-indigo-600 rounded w-4 h-4 me-2 border border-inherit" type="checkbox" value="" id="AcceptT&C">
+                                          <label class="form-check-label text-slate-400" for="AcceptT&C">I Accept <a href="#" class="text-indigo-600">Terms And Condition</a></label>
+                                      </div>
+                                  </div>
+  
+                                  <div class="mb-4">
+                                      <input type="submit" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md w-full" value="Register">
+                                  </div>
+  
+                                  <div class="text-center">
+                                      <span class="text-slate-400 me-2">Already have an account ? </span> <a href="auth-login.html" class="text-black dark:text-white font-bold inline-block">Sign in</a>
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </section><!--end section -->
+  
+          <div class="fixed bottom-3 end-3">
+              <a href="#" class="back-button btn btn-icon bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-full"><i data-feather="arrow-left" class="h-4 w-4"></i></a>
+          </div>
+  
+          <!-- Switcher -->
+          <div class="fixed top-[30%] -right-2 z-50">
+              <span class="relative inline-block rotate-90">
+                  <input type="checkbox" class="checkbox opacity-0 absolute" id="chk" />
+                  <label class="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8" for="chk">
+                      <i class="uil uil-moon text-[20px] text-yellow-500"></i>
+                      <i class="uil uil-sun text-[20px] text-yellow-500"></i>
+                      <span class="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] w-7 h-7"></span>
+                  </label>
+              </span>
+          </div>
+          <!-- Switcher -->
+  
+          <!-- LTR & RTL Mode Code -->
+          <div class="fixed top-[40%] -right-3 z-50">
+              <a href="#" id="switchRtl">
+                  <span class="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-bold rtl:block ltr:hidden" >LTR</span>
+                  <span class="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-bold ltr:block rtl:hidden">RTL</span>
+              </a>
+          </div>
+          <!-- LTR & RTL Mode Code -->
+  
+          <!-- JAVASCRIPTS -->
+          <script src="assets/libs/feather-icons/feather.min.js"></script>
+          <script src="assets/js/plugins.init.js"></script>
+          <script src="assets/js/app.js"></script>
+          <!-- JAVASCRIPTS -->
+      </body>
+  
+  <!-- Mirrored from shreethemes.in/techwind/layouts/auth-signup.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 May 2023 16:51:59 GMT -->
+  </html>

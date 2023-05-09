@@ -1,5 +1,9 @@
 {extends file="auth/layout.tpl"}
 
+
+
+{block name=section}
+
 {literal}
 <script language=javascript>
 function checkform() {
@@ -18,7 +22,6 @@ function checkform() {
 </script>
 {/literal}
 
-{block name=section}
 {if $frm.say eq 'invalid_login'}
     <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
         <strong class="font-bold">Login error!</strong>
@@ -46,7 +49,6 @@ function checkform() {
             >Username:</label>
             <input
                 name=username 
-                value='{$frm.username|escape:"html"}'
                 id="LoginEmail"
                 type="text"
                 class="form-input mt-3"
@@ -61,7 +63,6 @@ function checkform() {
             >Password:</label>
             <input
                 name=password 
-                value=''
                 id="LoginPassword"
                 type="password"
                 class="form-input mt-3"

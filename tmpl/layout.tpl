@@ -105,15 +105,18 @@
                 >
                     <span class="inline-block dark:hidden">
                         <img
-                            src="assets/images/logo-dark.png"
+                            src="assets/images/logo.svg"
                             class="l-dark"
-                            height="24"
+                            height="80px"
+                            width="160px"
                             alt=""
                         >
                         <img
-                            src="assets/images/logo-light.png"
+                            src="assets/images/logo-svg"
                             class="l-light"
-                            height="24"
+                            height="80px"
+                            width="160px"
+                            
                             alt=""
                         >
                     </span>

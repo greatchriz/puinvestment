@@ -262,7 +262,7 @@
                       <div class="md:col-span-7">
                           <div class="lg:ms-4">
                               <h4 class="mb-6 md:text-3xl text-2xl lg:leading-normal leading-normal font-medium">We are
-                                  the largest <br> Business expert </h4>
+                                  here to <br> Make Profit for you. </h4>
                               <p class="text-slate-400 max-w-xl">Puinvestsment is a company that specializes in providing investment opportunities for individuals looking to earn through cryptocurrencies. With our expertise in the crypto market, they offer customized investment plans tailored to each client's needs and goals. Through our platform, customers can access a range of investment options, including bitcoin and other altcoins, and benefit from our research and analysis. Puinvestsment also provides education and support for customers, helping them navigate the complexities of the crypto market and make informed investment decisions. Overall, Puinvestsment is committed to helping their customers earn through crypto by providing access to innovative investment opportunities and expert guidance.</p>
                               <a
                                   href="/?a=account"

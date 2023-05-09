@@ -9,8 +9,6 @@
 
     <section class="relative md:py-24 py-16">
         {include file="sections/home/plans.tpl"}
-        {include file="sections/home/team.tpl"}
-        {include file="sections/home/testimonials.tpl"}
     </section>
     <!--end section-->
 {/block}

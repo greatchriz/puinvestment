@@ -5,8 +5,7 @@
                     <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Key Features
                     </h3>
 
-                    <p class="text-slate-400 max-w-xl mx-auto">Start working with Tailwind CSS that can provide
-                        everything you need to generate awareness, drive traffic, connect.</p>
+                    <p class="text-slate-400 max-w-xl mx-auto">Start investing in Puinvestment, a company that has everything you need  for your digital assets like cryptocurrency management, storing, investing and buying.</p>
                 </div>
                 <!--end grid-->
 
@@ -22,7 +21,7 @@
                                 ></i>
                             </div>
                             <div class="flex-1">
-                                <h4 class="mb-0 text-lg font-medium">Fully Responsive</h4>
+                                <h4 class="mb-0 text-lg font-medium">Expertise in cryptocurrency trading</h4>
                             </div>
                         </div>
                     </div>
@@ -38,7 +37,7 @@
                                 ></i>
                             </div>
                             <div class="flex-1">
-                                <h4 class="mb-0 text-lg font-medium">Browser Compatibility</h4>
+                                <h4 class="mb-0 text-lg font-medium">Diversified portfolio</h4>
                             </div>
                         </div>
                     </div>
@@ -54,7 +53,7 @@
                                 ></i>
                             </div>
                             <div class="flex-1">
-                                <h4 class="mb-0 text-lg font-medium">Retina Ready</h4>
+                                <h4 class="mb-0 text-lg font-medium">Security measures</h4>
                             </div>
                         </div>
                     </div>
@@ -70,7 +69,7 @@
                                 ></i>
                             </div>
                             <div class="flex-1">
-                                <h4 class="mb-0 text-lg font-medium">Based On Tailwindcss 3</h4>
+                                <h4 class="mb-0 text-lg font-medium">User-friendly platform</h4>
                             </div>
                         </div>
                     </div>
@@ -86,7 +85,7 @@
                                 ></i>
                             </div>
                             <div class="flex-1">
-                                <h4 class="mb-0 text-lg font-medium">Feather Icons</h4>
+                                <h4 class="mb-0 text-lg font-medium">Fast transaction speeds</h4>
                             </div>
                         </div>
                     </div>
@@ -102,7 +101,7 @@
                                 ></i>
                             </div>
                             <div class="flex-1">
-                                <h4 class="mb-0 text-lg font-medium">Built With SASS</h4>
+                                <h4 class="mb-0 text-lg font-medium">Customizable investment options</h4>
                             </div>
                         </div>
                     </div>
@@ -118,7 +117,7 @@
                                 ></i>
                             </div>
                             <div class="flex-1">
-                                <h4 class="mb-0 text-lg font-medium">W3c Valid Code</h4>
+                                <h4 class="mb-0 text-lg font-medium">Access to expert advice</h4>
                             </div>
                         </div>
                     </div>
@@ -134,7 +133,7 @@
                                 ></i>
                             </div>
                             <div class="flex-1">
-                                <h4 class="mb-0 text-lg font-medium">Browsers Compatible</h4>
+                                <h4 class="mb-0 text-lg font-medium">Regulatory compliance</h4>
                             </div>
                         </div>
                     </div>
@@ -150,7 +149,7 @@
                                 ></i>
                             </div>
                             <div class="flex-1">
-                                <h4 class="mb-0 text-lg font-medium">Easy to customize</h4>
+                                <h4 class="mb-0 text-lg font-medium">Strong track record</h4>
                             </div>
                         </div>
                     </div>

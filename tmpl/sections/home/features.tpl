@@ -263,16 +263,11 @@
                           <div class="lg:ms-4">
                               <h4 class="mb-6 md:text-3xl text-2xl lg:leading-normal leading-normal font-medium">We are
                                   the largest <br> Business expert </h4>
-                              <p class="text-slate-400 max-w-xl">Start working with Tailwind CSS that can provide
-                                  everything you need to generate awareness, drive traffic, connect. Dummy text is text
-                                  that is used in the publishing industry or by web designers to occupy the space which
-                                  will later be filled with 'real' content. This is required when, for example, the
-                                  final text is not yet available. Dummy texts have been in use by typesetters since the
-                                  16th century.</p>
+                              <p class="text-slate-400 max-w-xl">Puinvestsment is a company that specializes in providing investment opportunities for individuals looking to earn through cryptocurrencies. With our expertise in the crypto market, they offer customized investment plans tailored to each client's needs and goals. Through our platform, customers can access a range of investment options, including bitcoin and other altcoins, and benefit from our research and analysis. Puinvestsment also provides education and support for customers, helping them navigate the complexities of the crypto market and make informed investment decisions. Overall, Puinvestsment is committed to helping their customers earn through crypto by providing access to innovative investment opportunities and expert guidance.</p>
                               <a
-                                  href="#"
+                                  href="/?a=account"
                                   class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-3"
-                              >Buy Now <i class="mdi mdi-chevron-right align-middle"></i></a>
+                              >Invest Now <i class="mdi mdi-chevron-right align-middle"></i></a>
                           </div>
                       </div>
                       <!--end col-->

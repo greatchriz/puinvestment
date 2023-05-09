@@ -5,12 +5,10 @@
 
     {include file="sections/home/hero.tpl"}
     {include file="sections/home/features.tpl"}
-    {include file="sections/home/key-feature.tpl"}
+    {include file="sections/home/key-features.tpl"}
     <section class="relative md:py-24 py-16">
         {include file="sections/home/team.tpl"}
         {include file="sections/home/testimonials.tpl"}
     </section>
     <!--end section-->
-
-
 {/block}

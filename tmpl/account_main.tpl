@@ -3,7 +3,7 @@
 
 {block name=section}
 
-  {include file="sections/about/hero.tpl"}
+  {include file='sections/about/hero.tpl' titleH5="User Dashboard" titleH3="Dashboard" heroImage="https://puinvestment.org/assets/images/blog/bg.jpg"}
   <!-- Start Section-->
   <section class="relative md:py-24 bg-gray-50 dark:bg-slate-800">
     <div class="container md:mt-24 ">

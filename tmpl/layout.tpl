@@ -108,14 +108,14 @@
                             src="assets/images/logo.svg"
                             class="l-dark"
                             height="80px"
-                            width="140px"
+                            width="110px"
                             alt=""
                         >
                         <img
                             src="assets/images/logo.svg"
                             class="l-light"
                             height="80px"
-                            width="130px"
+                            width="110px"
                             alt=""
                         >
                     </span>
@@ -254,7 +254,7 @@
                                         <img
                                             src="assets/images/logo.svg"
                                             height="80px"
-                                            width="140px"
+                                            width="110px"
                                             alt=""
                                         >
                                     </a>

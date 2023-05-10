@@ -9,7 +9,7 @@
             alt=""
         >
         <div class="flex-1 content ms-4">
-            <h4 class="text-lg text-medium">{title}</h4>
+            <h4 class="text-lg text-medium">{$title}</h4>
             <p class="text-slate-400 mb-0">{$userinfo}</p>
             <p class="text-slate-400 mb-0"><a
                     href="#"

@@ -8,6 +8,7 @@
       {*include user_detail file and pass  userinfo to be username name  and title as User Name*}
       {include file='user_detail.tpl' userinfo=$userinfo.username title="User Name"}
 
+      {include file='user_detail.tpl' userinfo=$userinfo.email title="Email"}
 
     </div>
   </div>

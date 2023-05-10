@@ -3,61 +3,12 @@
 {block name=page}
   <div class="lg:w-3/4 md:w-2/3 md:px-3 mt-[30px] md:mt-0">
     <div class="mt-[30px] lg:mt-0">
-      <h5 class="text-xl font-semibold">Experience :</h5>
+      <h5 class="text-xl font-semibold">Dashboard </h5>
 
-      <div
-        class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-4 rounded-md bg-white dark:bg-slate-900 mt-6"
-      >
-        <img
-          src="assets/images/client/circle-logo.png"
-          class="h-16 w-16 p-4 bg-slate-50 dark:bg-slate-800 shadow dark:shadow-gray-800 rounded-md"
-          alt=""
-        >
-        <div class="flex-1 content ms-4">
-          <h4 class="text-lg text-medium">Senior Web Developer</h4>
-          <p class="text-slate-400 mb-0">3 Years Experience</p>
-          <p class="text-slate-400 mb-0"><a
-              href="#"
-              class="text-indigo-600"
-            >CircleCi</a> @London, UK</p>
-        </div>
-      </div>
+      {* include user_detail and pass the userinfo variable *}
 
-      <div
-        class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-4 rounded-md bg-white dark:bg-slate-900 mt-6"
-      >
-        <img
-          src="assets/images/client/facebook-logo-2019.png"
-          class="h-16 w-16 p-4 bg-slate-50 dark:bg-slate-800 shadow dark:shadow-gray-800 rounded-md"
-          alt=""
-        >
-        <div class="flex-1 content ms-4">
-          <h4 class="text-lg text-medium">Web Designer</h4>
-          <p class="text-slate-400 mb-0">2 Years Experience</p>
-          <p class="text-slate-400 mb-0"><a
-              href="#"
-              class="text-indigo-600"
-            >Facebook</a> @Washington D.C, USA</p>
-        </div>
-      </div>
-
-      <div
-        class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-4 rounded-md bg-white dark:bg-slate-900 mt-6"
-      >
-        <img
-          src="assets/images/client/spotify.png"
-          class="h-16 w-16 p-4 bg-slate-50 dark:bg-slate-800 shadow dark:shadow-gray-800 rounded-md"
-          alt=""
-        >
-        <div class="flex-1 content ms-4">
-          <h4 class="text-lg text-medium">UI Designer</h4>
-          <p class="text-slate-400 mb-0">2 Years Experience</p>
-          <p class="text-slate-400 mb-0"><a
-              href="#"
-              class="text-indigo-600"
-            >Spotify</a> @Perth, Australia</p>
-        </div>
-      </div>
+      {include file='user_detail.tpl' userinfo=$userinfo}
+      
     </div>
 
     {* <div class="grid lg:grid-cols-2 grid-cols-1 gap-[30px] pt-6">

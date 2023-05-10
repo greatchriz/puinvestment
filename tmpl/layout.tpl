@@ -166,7 +166,7 @@
 
                 <div id="navigation">
 
-                    <div class="border m-2">
+                    <div class="border m-2 p-2 rounded-lg shadow-lg">
                         <div id="google_translate_element"></div>
                     </div>
 

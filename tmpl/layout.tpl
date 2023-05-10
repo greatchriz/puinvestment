@@ -9,35 +9,30 @@
 
     <head>
         <meta charset="UTF-8" />
-        <title>Techwind - Tailwind CSS Multipurpose Landing Page Template</title>
+        <title>Puinvestment | We are crypto currency stock brockers. We help you to earn through your crypto currency
+            Investment</title>
         <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <meta
             name="description"
-            content="Tailwind CSS Saas & Software Landing Page Template"
+            content="Digital assets management company"
         />
         <meta
             name="keywords"
-            content="agency, application, business, clean, creative, cryptocurrency, it solutions, modern, multipurpose, nft marketplace, portfolio, saas, software, tailwind css"
+            content="agency, Crypto currency, Investment, Trading, Exchange, cryptocurrency, it solutions, modern, 2023, nft marketplace, Bitcoin, Etherum, Tron"
         />
-        <meta
-            name="author"
-            content="Shreethemes"
-        />
+
         <meta
             name="website"
-            content="https://shreethemes.in/"
+            content="https://puinvestment.org/"
         />
         <meta
             name="email"
-            content="support@shreethemes.in"
+            content="admin@puinvestment.org"
         />
-        <meta
-            name="version"
-            content="1.8.0"
-        />
+
         <meta
             http-equiv="X-UA-Compatible"
             content="IE=edge"
@@ -107,14 +102,14 @@
                         <img
                             src="assets/images/logo.svg"
                             class="l-dark"
-                            height="80px"
+                            height="100px"
                             width="140px"
                             alt=""
                         >
                         <img
                             src="assets/images/logo.svg"
                             class="l-light"
-                            height="80px"
+                            height="100px"
                             width="130px"
                             alt=""
                         >
@@ -253,7 +248,7 @@
                                     >
                                         <img
                                             src="assets/images/logo.svg"
-                                            height="80px"
+                                            height="100px"
                                             width="140px"
                                             alt=""
                                         >
@@ -574,19 +569,18 @@
         <!-- JAVASCRIPTS -->
 
         {literal}
-
             <script type="text/javascript">
                 function googleTranslateElementInit() {
-                    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+                    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
                 }
             </script>
-
 
         {/literal}
         <script
             type="text/javascript"
             src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
         ></script>
+
 
     </body>
 

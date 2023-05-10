@@ -6,8 +6,23 @@
       <h5 class="text-xl font-semibold">Dashboard </h5>
 
       {* include user_detail and pass the userinfo variable *}
+            <!-- Start Section-->
+              <section class="relative md:py-24 py-16">
+                <div class="container">
+                  <div
+                    id="grid"
+                    class="md:flex justify-center mx-auto mt-4"
+                  >
 
-      {include file='user_detail.tpl' userinfo=$userinfo}
+                  {include file='user_detail.tpl' userinfo=$userinfo}
+
+
+                  </div>
+
+                </div>
+              </section>
+
+
       
     </div>
 

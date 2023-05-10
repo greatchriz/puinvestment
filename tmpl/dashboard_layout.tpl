@@ -3,7 +3,8 @@
 
 {block name=section}
 
-<section class="relative table w-full py-36 lg:py-44 bg-[url('assets/images/blog/bg.jpg')] bg-no-repeat bg-center bg-cover">
+<section class="relative table w-full py-36 lg:py-44 bg-no-repeat bg-center bg-cover" style="background-image: url(https://puinvestment.org/assets/images/blog/bg.jpg);
+">
 <div class="absolute inset-0 bg-black opacity-75"></div>
 <div class="container">
     <div class="grid grid-cols-1 pb-8 text-center mt-10">

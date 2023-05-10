@@ -103,14 +103,14 @@
                             src="assets/images/logo.svg"
                             class="l-dark"
                             height="100px"
-                            width="110px"
+                            width="130px"
                             alt=""
                         >
                         <img
                             src="assets/images/logo.svg"
                             class="l-light"
                             height="100px"
-                            width="110px"
+                            width="130px"
                             alt=""
                         >
                     </span>
@@ -249,7 +249,7 @@
                                         <img
                                             src="assets/images/logo.svg"
                                             height="100px"
-                                            width="110px"
+                                            width="130px"
                                             alt=""
                                         >
                                     </a>

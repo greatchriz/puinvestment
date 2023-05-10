@@ -1,4 +1,4 @@
-<div class="lg:w-1/4 md:w-1/3 md:px-3">
+<div class="lg:w-1/4 md:w-1/3 md:px-3" style="display: none;">
     <div class="relative md:-mt-48 -mt-32">
         <div class="p-6 rounded-md shadow dark:shadow-gray-800 bg-white dark:bg-slate-900">
             <div class="profile-pic text-center mb-5">

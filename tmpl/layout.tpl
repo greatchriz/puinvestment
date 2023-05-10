@@ -166,6 +166,11 @@
                 <!--Login button End-->
 
                 <div id="navigation">
+
+                    <div class="border m-2">
+                        <div id="google_translate_element"></div>
+                    </div>
+
                     <!-- Navigation Menu-->
                     <ul class="navigation-menu nav-light">
                         <li>
@@ -546,6 +551,7 @@
         </div>
         <!-- LTR & RTL Mode Code -->
 
+        <script src="//code.tidio.co/0w3whf4hek0xafq6ttaucscl7dzdfzcv.js" async></script>
         <!-- JAVASCRIPTS -->
         <script src="assets/libs/tobii/js/tobii.min.js"></script>
         <script src="assets/libs/tiny-slider/min/tiny-slider.js"></script>
@@ -554,6 +560,14 @@
         <script src="assets/js/plugins.init.js"></script>
         <script src="assets/js/app.js"></script>
         <!-- JAVASCRIPTS -->
+
+            <script type="text/javascript">
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+            }
+            </script>
+            
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </body>
 
     <!-- Mirrored from shreethemes.in/techwind/layouts/index-corporate.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 May 2023 16:47:59 GMT -->

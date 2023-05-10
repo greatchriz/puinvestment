@@ -10,7 +10,11 @@
             alt=""
         >
         <div class="flex-1 content ms-4">
-            <h4 class="text-lg text-medium user-detail-title">{$title}</h4>
+            <h4 class="text-lg text-medium" style="font-family: 'Times New Roman', serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 2rem;
+            color: #1F2937;">{$title}</h4>
             <p class="text-slate-400 mb-0">{$userinfo}</p>
 
         </div>

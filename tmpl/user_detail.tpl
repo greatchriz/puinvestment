@@ -1,7 +1,7 @@
 {*  accept the user =info var *}
 
 
-<div class="lg:mt-0">
+<div class="ml-2 mr-2 lg:mt-0">
     <div
         class="flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-4 rounded-md bg-white dark:bg-slate-900 mt-6">
         <img

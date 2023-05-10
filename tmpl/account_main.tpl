@@ -16,6 +16,9 @@
             {include file='user_detail.tpl' userinfo=$userinfo.username title="User Name"}
 
             {include file='user_detail.tpl' userinfo=$userinfo.email title="Email"}
+            {include file='user_detail.tpl' userinfo=$userinfo.email title="Email"}
+
+            {include file='user_detail.tpl' userinfo=$userinfo.email title="Email"}
 
           </div>
         </div>

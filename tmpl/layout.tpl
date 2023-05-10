@@ -147,21 +147,14 @@
                 </div>
 
                 <!--Login button Start-->
-                {* <ul class="buy-button list-none mb-0">
-                        <li class="inline mb-0">
-                            <a href="#">
-                                <span class="login-btn-primary"><span class="btn btn-icon rounded-full bg-indigo-600/5 hover:bg-indigo-600 border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white"><i data-feather="settings" class="h-4 w-4"></i></span></span>
-                                <span class="login-btn-light"><span class="btn btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><i data-feather="settings" class="h-4 w-4"></i></span></span>
-                            </a>
-                        </li>
+                <ul class="buy-button list-none mb-0">
+                    <li class="inline mb-0">
+                        <div class="border m-2 p-2 rounded-lg shadow-lg">
+                            <div id="google_translate_element"></div>
+                        </div>
 
-                        <li class="inline ps-1 mb-0">
-                            <a href="https://1.envato.market/techwind" target="_blank">
-                                <div class="login-btn-primary"><span class="btn btn-icon rounded-full bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white"><i data-feather="shopping-cart" class="h-4 w-4"></i></span></div>
-                                <div class="login-btn-light"><span class="btn btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><i data-feather="shopping-cart" class="h-4 w-4"></i></span></div>
-                            </a>
-                        </li>
-                    </ul> *}
+                    </li>
+                </ul>
                 <!--Login button End-->
 
                 <div id="navigation">
@@ -585,18 +578,20 @@
         <!-- JAVASCRIPTS -->
 
         {literal}
+
             <script type="text/javascript">
                 function googleTranslateElementInit() {
                     new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
                 }
             </script>
 
-        {/literal}
 
+        {/literal}
         <script
             type="text/javascript"
             src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
         ></script>
+
     </body>
 
     <!-- Mirrored from shreethemes.in/techwind/layouts/index-corporate.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 May 2023 16:47:59 GMT -->

@@ -115,7 +115,7 @@
                             src="assets/images/logo.svg"
                             class="l-light"
                             height="80px"
-                            width="140px"
+                            width="130px"
                             alt=""
                         >
                     </span>
@@ -149,7 +149,7 @@
                 <!--Login button Start-->
                 <ul class="buy-button list-none mb-0">
                     <li class="inline mb-0">
-                        <div class="border m-2 p-2 rounded-lg shadow-lg">
+                        <div class="border mt-1 mb-1 p-2 rounded-lg shadow-lg">
                             <div id="google_translate_element"></div>
                         </div>
 

@@ -15,7 +15,11 @@
             font-size: 1.5rem;
             line-height: 2rem;
             color: #1F2937;">{$title}</h4>
-            <p class="text-slate-400 mb-0">{$userinfo}</p>
+            <p class="text-slate-400 mb-0" style="  font-size: 1.125rem;
+            line-height: 1.75rem;
+            font-weight: 400;
+            letter-spacing: -0.025em;
+            color: #4B5563;">{$userinfo}</p>
 
         </div>
     </div>

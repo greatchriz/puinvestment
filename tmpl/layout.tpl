@@ -102,15 +102,15 @@
                         <img
                             src="assets/images/logo.svg"
                             class="l-dark"
-                            height="100px"
-                            width="130px"
+                            height="90px"
+                            width="110px"
                             alt=""
                         >
                         <img
                             src="assets/images/logo.svg"
                             class="l-light"
-                            height="100px"
-                            width="130px"
+                            height="90px"
+                            width="110px"
                             alt=""
                         >
                     </span>
@@ -248,8 +248,8 @@
                                     >
                                         <img
                                             src="assets/images/logo.svg"
-                                            height="100px"
-                                            width="130px"
+                                            height="90px"
+                                            width="110px"
                                             alt=""
                                         >
                                     </a>

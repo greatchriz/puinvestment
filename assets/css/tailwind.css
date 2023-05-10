@@ -473,6 +473,16 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+/* user-detail-title choose a cool font for this*/
+.user-detail-title{
+  font-family: 'Times New Roman', serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #1F2937;
+}
+
 .container{
   width: 100%;
   margin-right: auto;

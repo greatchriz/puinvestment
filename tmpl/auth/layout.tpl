@@ -9,35 +9,30 @@
     
         <head>
             <meta charset="UTF-8" />
-            <title>Techwind - Tailwind CSS Multipurpose Landing Page Template</title>
+            <title>Puinvestment | We are crypto currency stock brockers. We help you to earn through your crypto currency
+                Investment</title>
             <meta
                 name="viewport"
                 content="width=device-width, initial-scale=1, shrink-to-fit=no"
             />
             <meta
                 name="description"
-                content="Tailwind CSS Saas & Software Landing Page Template"
+                content="Digital assets management company"
             />
             <meta
                 name="keywords"
-                content="agency, application, business, clean, creative, cryptocurrency, it solutions, modern, multipurpose, nft marketplace, portfolio, saas, software, tailwind css"
+                content="agency, Crypto currency, Investment, Trading, Exchange, cryptocurrency, it solutions, modern, 2023, nft marketplace, Bitcoin, Etherum, Tron"
             />
-            <meta
-                name="author"
-                content="Shreethemes"
-            />
+    
             <meta
                 name="website"
-                content="https://shreethemes.in/"
+                content="https://puinvestment.org/"
             />
             <meta
                 name="email"
-                content="support@shreethemes.in"
+                content="admin@puinvestment.org"
             />
-            <meta
-                name="version"
-                content="1.8.0"
-            />
+    
             <meta
                 http-equiv="X-UA-Compatible"
                 content="IE=edge"

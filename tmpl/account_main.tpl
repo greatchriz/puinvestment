@@ -5,7 +5,7 @@
 
   {include file="sections/about/hero.tpl"}
   <!-- Start Section-->
-  <section class="relative md:py-24 py-16">
+  <section class="relative md:py-24 ">
     <div class="container md:mt-24 ">
       <div class="md:flex">
         {include file="side_bar.tpl"}

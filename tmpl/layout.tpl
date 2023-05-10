@@ -567,14 +567,12 @@
         <script src="assets/js/plugins.init.js"></script>
         <script src="assets/js/app.js"></script>
         <!-- JAVASCRIPTS -->
-
-        {literal}
+            {literal}
             <script type="text/javascript">
                 function googleTranslateElementInit() {
-                    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
                 }
             </script>
-
         {/literal}
         <script
             type="text/javascript"
